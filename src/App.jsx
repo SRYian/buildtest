@@ -18,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/nav" element={<Navbar />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Login />} />
           <Route path="/mypost" element={<MyPost />} />
           <Route path="/posts" element={<Posts />} />
           <Route path="/addpost" element={<AddPost />} />
